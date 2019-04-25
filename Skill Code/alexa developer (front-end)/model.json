@@ -1,0 +1,183 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "animales en otomí",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "no sé",
+                        "oriéntame",
+                        "estoy perdido",
+                        "instrucciones",
+                        "que función tienes",
+                        "que es lo que haces",
+                        "me podrías ayudar",
+                        "que opciones tengo",
+                        "que haces",
+                        "que puedo hacer",
+                        "ayuda"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "ya no quiero seguir aprendiendo",
+                        "nos vemos",
+                        "hasta pronto",
+                        "hasta luego",
+                        "ya no quiero jugar",
+                        "gracias",
+                        "eso es todo",
+                        "detener",
+                        "salir",
+                        "bye",
+                        "olvidalo",
+                        "adiós",
+                        "cancela",
+                        "nel",
+                        "no quiero",
+                        "no",
+                        "stop",
+                        "detente",
+                        "para"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnimalIntent",
+                    "slots": [],
+                    "samples": [
+                        "quiero conocer otro animal",
+                        "dime otro animal",
+                        "dime un nuevo animal",
+                        "quiero conocer un nuevo animal",
+                        "sorpréndeme alexa",
+                        "otro más",
+                        "otro animal",
+                        "quiero saber un animal",
+                        "Dime un animal",
+                        "Dame un animal en otomí",
+                        "Quiero un animal",
+                        "Dime un animal en otomí"
+                    ]
+                },
+                {
+                    "name": "PracticarIntent",
+                    "slots": [],
+                    "samples": [
+                        "practicar un animal",
+                        "adivinar un animal",
+                        "dime uno y lo adivino",
+                        "quiero practicar",
+                        "quiero adivinar",
+                        "quiero un reto",
+                        "quiero una adivinanza",
+                        "quiero adivinar un animal"
+                    ]
+                },
+                {
+                    "name": "AdivinaIntent",
+                    "slots": [
+                        {
+                            "name": "animal",
+                            "type": "animales"
+                        }
+                    ],
+                    "samples": [
+                        "{animal}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "animales",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "guajolote"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ratón"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "puerco"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pollo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "perro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pato"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pájaro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mariposa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lagartija"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hormiga"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "conejo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chivo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "caballo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "borrego"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "araña"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
